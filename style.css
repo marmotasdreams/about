@@ -5,6 +5,9 @@ color:white;
 font-size: calc(((1vh+1vw)/2)*10);
 
 }
+body, html {
+overflow-x: hidden;
+}
 h1{
     margin-left:10%;
 font-size: calc(((1vh+1vw)/2)*20);
@@ -26,9 +29,16 @@ font-size: calc(((1vh+1vw)/2)*20);
         top:30%;
         right:-30%;
         }
-        #twirl {}
+        #twirl {
+
+        }
 }
-@media (max-width: 600px){
+@media (max-width: 600px){ --mobile
+    html {
+
+        overflow:hidden;
+
+    }
     #circles{
         position:fixed;
         top:10%;
@@ -46,6 +56,7 @@ font-size: calc(((1vh+1vw)/2)*20);
         position:fixed;
         top:-60%;
         right:-30%;
+filter:drop-shadow(12px 12px 25px rgba(255,255,255,.4));
         }
 
 }
