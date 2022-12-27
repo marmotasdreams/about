@@ -59,6 +59,11 @@ font-size: calc(((1vh+1vw)/2)*20);
         right:-30%;
 filter:drop-shadow(12px 12px 25px rgba(255,255,255,.4));
         }
+h1{
+    margin-left:5%;
+font-size: calc(((1vh+1vw)/2)*15);
+
+}
 
 }
 
