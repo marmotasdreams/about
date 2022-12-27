@@ -1,18 +1,19 @@
 html {
-overflow:hidden;
-background:black;
-color:white;
-font-size: calc(((1vh+1vw)/2)*10);
+    overflow:hidden;
+    background:black;
+    color:white;
+    font-size: calc(((1vh+1vw)/2)*10);
 
 }
 body {
-height: 100%;
-overflow: hidden;
+    height: 100%;
+    overflow: hidden;
 }
 h1{
     margin-left:10%;
-font-size: calc(((1vh+1vw)/2)*20);
+    font-size: calc(((1vh+1vw)/2)*20);
 
+font-family: 'Almarai', sans-serif;
 }
 
 #marmotas{
@@ -57,11 +58,11 @@ font-size: calc(((1vh+1vw)/2)*20);
         position:fixed;
         top:-60%;
         right:-30%;
-filter:drop-shadow(12px 12px 25px rgba(255,255,255,.4));
+        filter:drop-shadow(12px 12px 25px rgba(255,255,255,.4));
         }
 h1{
     margin-left:5%;
-font-size: calc(((1vh+1vw)/2)*15);
+    font-size: calc(((1vh+1vw)/2)*15);
 
 }
 
