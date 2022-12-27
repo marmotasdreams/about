@@ -1,0 +1,52 @@
+html {
+overflow:hidden;
+background:black;
+color:white;
+font-size: calc(((1vh+1vw)/2)*10);
+
+}
+h1{
+    margin-left:10%;
+font-size: calc(((1vh+1vw)/2)*20);
+
+}
+
+#marmotas{
+
+}
+
+#dreams{
+
+}
+
+@media (min-width: 600px){
+
+    #circles {
+        position:fixed;
+        top:30%;
+        right:-30%;
+        }
+        #twirl {}
+}
+@media (max-width: 600px){
+    #circles{
+        position:fixed;
+        top:10%;
+        left:-30%;
+        width:120%;
+        height:120%;
+    }
+
+        #twirl {
+
+        transform: rotate(90deg);
+        width:200%;
+        height:200%;
+
+        position:fixed;
+        top:-60%;
+        right:-30%;
+        }
+
+}
+
