@@ -12,6 +12,11 @@ console.log(arrowButton)
 function appearText() {
 
     description.style.display = "initial";
+    //description.style.overflowX = "none";
+    //description.style.overflowY = "auto";
+    description.style.overflow = "auto";
+    description.style.background = "red";
+
 
 }
 

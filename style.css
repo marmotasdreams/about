@@ -20,6 +20,7 @@ h1{
     margin-left:10%;
     font-size: calc(((1vh+1vw)/2)*5);
 
+
 }
 #arrow {
     filter: invert();
@@ -27,6 +28,7 @@ h1{
 
     #circles {
     }
+
 @media (min-width: 600px){ --desktop
 
         #twirl {
@@ -50,7 +52,6 @@ h1{
         }
     #arrow {display:none;}
 }
-
 
 
 @media (max-width: 600px){ --mobile
@@ -90,6 +91,13 @@ h1{
         }
     #description {
             display:none;
+            position:absolute;
+            overflow-Y:scroll;
+              white-space:wrap;
+              width:80%;
+              height:50%;
+
         }
+
 }
 
