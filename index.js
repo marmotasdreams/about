@@ -4,6 +4,7 @@
 //
 let arrowButton = document.getElementById("arrow")
 let circles = document.getElementById("circles")
+let ball = document.getElementById("ball")
 let twirl = document.getElementById("twirl");
 let description = document.getElementById("description");
 console.log(arrowButton)
@@ -23,6 +24,7 @@ function appearText() {
 function scroll() {
     arrowButton.style.display = "none";
     circles.style.display = "none";
+    ball.style.display = "none";
     twirl.style.opacity = "0.3";
     appearText();
 

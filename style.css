@@ -29,7 +29,7 @@ h1{
     #circles {
     }
 #redes *{
-width:20%;
+width:10%;
 }
 #ig {
 position:fixed;
@@ -82,6 +82,15 @@ z-index:999999;
         background:black;
         }
     #arrow {display:none;}
+    #ball {
+
+        position:fixed;
+        width:30%;
+        height:auto;
+        top:10%;
+        left:5%;
+
+    }
 }
 
 
