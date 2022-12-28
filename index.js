@@ -1,0 +1,30 @@
+//arrow as button logic
+
+//
+//
+let arrowButton = document.getElementById("arrow")
+let circles = document.getElementById("circles")
+let twirl = document.getElementById("twirl");
+let description = document.getElementById("description");
+console.log(arrowButton)
+
+
+function appearText() {
+
+    description.style.display = "initial";
+
+}
+
+function scroll() {
+    arrowButton.style.display = "none";
+    circles.style.display = "none";
+    twirl.style.opacity = "0.3";
+    appearText();
+
+}
+
+function addMultipleEventListener(element, events, handler) {
+  events.forEach(e => element.addEventListener(e, handler))
+}
+addMultipleEventListener(arrowButton, ['click','touchend'], scroll)
+

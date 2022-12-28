@@ -2,7 +2,6 @@ html {
     overflow:hidden;
     background:black;
     color:white;
-    font-size: calc(((1vh+1vw)/2)*10);
 
 }
 body {
@@ -10,31 +9,50 @@ body {
     overflow: hidden;
 }
 h1{
-    margin-left:10%;
+    margin-left:50%;
     font-size: calc(((1vh+1vw)/2)*20);
 
-font-family: 'Almarai', sans-serif;
+    font-family: 'Almarai', sans-serif;
+}
+#description {
+
+    font-family: 'Slabo 27px', serif;
+    margin-left:10%;
+    font-size: calc(((1vh+1vw)/2)*5);
+
+}
+#arrow {
+    filter: invert();
 }
 
-#marmotas{
+    #circles {
+    }
+@media (min-width: 600px){ --desktop
 
-}
-
-#dreams{
-
-}
-
-@media (min-width: 600px){
-
+        #twirl {
+        position:fixed;
+        width: 200%;
+        height: 200%;
+        top:10%;
+        left:-50%;
+        display:initial;
+        }
     #circles {
         position:fixed;
         top:30%;
         right:-30%;
         }
-        #twirl {
-
+        #description {
+        position:fixed;
+        top:40%;
+        width:50%;
+        background:black;
         }
+    #arrow {display:none;}
 }
+
+
+
 @media (max-width: 600px){ --mobile
     html {
 
@@ -60,11 +78,18 @@ font-family: 'Almarai', sans-serif;
         right:-30%;
         filter:drop-shadow(12px 12px 25px rgba(255,255,255,.4));
         }
-h1{
-    margin-left:5%;
-    font-size: calc(((1vh+1vw)/2)*15);
+        h1{
+            margin-left:5%;
+            font-size: calc(((1vh+1vw)/2)*15);
 
-}
-
+        }
+        #arrow {
+        position:fixed;
+        bottom:0%;
+        left:45%;
+        }
+    #description {
+            display:none;
+        }
 }
 
