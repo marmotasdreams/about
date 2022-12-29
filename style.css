@@ -14,7 +14,7 @@ h1{
 
     font-family: 'Almarai', sans-serif;
 }
-#description {
+#shortDescription {
 
     font-family: 'Slabo 27px', serif;
     margin-left:10%;
@@ -28,33 +28,96 @@ h1{
 
     #circles {
     }
+
+
+#lang {
+
+position:fixed;
+top:20%;
+left:30%;
+z-index:99999999;
+margin-left:20px;
+
+    }
+#lang button {
+
+width: fit-content;
+}
+
+#mas {
+position:fixed;
+top:45%;
+left:60%;
+z-index:99999999;
+
+}
+.btn,
+input[type="submit"]{
+	cursor: pointer;
+    border-radius: 0px;
+    text-decoration: none;
+    padding: 12px 18px;
+    font-size: 12px;
+    line-height: 19px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif; font-weight:400;
+    letter-spacing: 3px;
+    -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+}
+.btn:hover,
+input[type="submit"]:hover{
+    -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+}
+.btn-white{
+    border:solid 2px #fff;
+    background: transparent;
+    color: #fff !important;
+}
+.btn-white:hover{
+    border:solid 2px #fff;
+    background: #fff;
+    color: #1f1f1f !important;
+}
+
 #redes *{
-width:10%;
+width:15%;
 }
 #ig {
 position:fixed;
-top:30%;
+top:0%;
+left:40%;
 filter:invert();
 cursor:pointer;
 z-index:999999;
 }
 #yt {
 position:fixed;
-top:40%;
+left:45%;
+top:0%;
 filter:invert();
 cursor:pointer;
 z-index:999999;
 }
 #spot {
 position:fixed;
-top:50%;
+left:50%;
+top:0%;
 filter:invert();
 cursor:pointer;
 z-index:999999;
 }
 #bc {
 position:fixed;
-top:60%;
+left:55%;
+top:0%;
 filter:invert();
 cursor:pointer;
 z-index:999999;
@@ -75,7 +138,7 @@ z-index:999999;
         top:30%;
         right:-30%;
         }
-        #description {
+        #shortDescription {
         position:fixed;
         top:30%;
         width:50%;
@@ -129,7 +192,7 @@ z-index:999999;
         bottom:0%;
         left:45%;
         }
-    #description {
+    #shortDescription {
             display:none;
             position:absolute;
             overflow-Y:scroll;
@@ -138,6 +201,42 @@ z-index:999999;
               height:50%;
     font-size: calc(((1vh+1vw)/2)*5);
 
+        }
+    #redes *{
+    width:30%;
+    }
+    #ig {
+    left: 25%;
+    }
+    #yt {
+    left:40%;
+    }
+    #spot {
+    left:55%;
+    }
+    #bc {
+    left:70%;
+    }
+
+    #esp {
+
+    position:fixed;
+    top:24%;
+    left:10%;
+    z-index:99999999;
+
+        }
+    #eng {
+
+    position:fixed;
+    top:24%;
+    left:60%;
+    z-index:99999999;
+
+        }
+
+        #mas {
+        visibility:hidden;
         }
 
 }
